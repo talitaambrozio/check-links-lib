@@ -1,0 +1,30 @@
+{
+  "name": "checklinks-lib",
+  "version": "1.0.0",
+  "description": "Library for checking the status of links in markdown files.",
+  "main": "./cli.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node ./src/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talitaambrozio/check-links-lib"
+  },
+  "keywords": ["markdown", "url", "md"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talitaambrozio/check-links-lib/issues"
+  },
+  "homepage": "https://github.com/talitaambrozio/check-links-lib#readme",
+  "dependencies": {
+    "chalk": "5.2.0"
+  },
+  "bin": {
+    "checklinks": "./cli.js"
+  },
+  "preferGlobal": true
+  
+}
